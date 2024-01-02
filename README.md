@@ -1,2 +1,2 @@
 # java_loiane
-Curso de Java Básico - Loiane.
+Curso de Java Básico - Loiane Grouer.
