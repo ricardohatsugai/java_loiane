@@ -20,16 +20,26 @@ public class Exercicio14 {
 		
 		double limite 	= 50;
 		double multa 	= 4.00;
+		double pesoExcesso = 0.0;
+		double multaValor = 0.0;
 		
 		System.out.println("Informe o peso total de peixes: ");
 		double peso = input.nextDouble();
 		
 		if(peso > limite) {
-			double pesoExcesso = peso - limite;
-			double multaValor = multa * pesoExcesso;
+			pesoExcesso = peso - limite;
+			multaValor = multa * pesoExcesso;
 			System.out.println("O peso de " + peso + " quilos que você pescou, gerou uma multa " +
 					" no valor de R$ " + multaValor + ", pelo peso em excesso de " + pesoExcesso +
 					" quilos.");
+		}
+		
+		if(peso < limite) {
+			pesoExcesso = 0.0;
+			multaValor = 0.0;
+			System.out.println("O peso de " + peso + " quilos que você pescou, está dentro do limite" 
+					+ " de pesca, e gerou R$ " + multaValor + ", pelo peso em excesso de " + 
+					pesoExcesso + " quilos.");
 		}
 
 	}
