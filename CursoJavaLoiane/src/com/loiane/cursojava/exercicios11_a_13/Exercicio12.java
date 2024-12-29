@@ -17,7 +17,7 @@ public class Exercicio12 {
 		
 		double pesoIdeal = (72.7 * altura) - 58;
 		
-		System.out.println("Seu peso ideal é " + pesoIdeal + " Quilos.");
+		System.out.printf("Seu peso ideal é %.2f quilos.\n", pesoIdeal);
 
 	}
 

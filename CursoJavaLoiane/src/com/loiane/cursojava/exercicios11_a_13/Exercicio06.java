@@ -18,7 +18,7 @@ public class Exercicio06 {
 		
 		double area = pi*(Math.pow(raio, 2));
 		
-		System.out.println("A área do círculo infrmado é " + area);
+		System.out.printf("A área do círculo infrmado é %.4f.\n", area);
 
 	}
 

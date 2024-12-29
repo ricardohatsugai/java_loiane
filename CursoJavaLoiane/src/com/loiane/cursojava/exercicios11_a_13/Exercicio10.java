@@ -16,7 +16,7 @@ public class Exercicio10 {
 		
 		double farenheit = (celsius * 1.8 + 32);
 		
-		System.out.println("A temperatura " + celsius + " Celsius em Fahrenheit é " + farenheit + ".");
+		System.out.printf("A temperatura %.2f Celsius em Fahrenheit é %.2f.\n", celsius, farenheit );
 
 	}
 
