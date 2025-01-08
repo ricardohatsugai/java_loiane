@@ -6,7 +6,7 @@ package com.loiane.cursojava.exerciciosAula14_a_15;
 
 import java.util.Scanner;
 
-public class Exerecicio03 {
+public class Exercicio03 {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
